@@ -25,7 +25,7 @@ My Complete path with Javascript (with other languages)
 <p align="left">
   💼 IDE/Tools: <strong>
   
-  ![VIM](https://img.shields.io/badge/-VIM-333333?style=for-the-badge&logo=vim&logoColor=007ACC)
+  ![VIM](https://img.shields.io/badge/-VIM-2311AB00?style=for-the-badge&logo=vim&logoColor=white)
   
   </strong>
 </p>
