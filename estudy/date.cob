@@ -1,0 +1,19 @@
+       >>SOURCE FORMAT FREE
+       IDENTIFICATION DIVISION.
+           PROGRAM-ID. date.
+           AUTHOR. vvberaldo.
+           DATE-WRITTEN. 11/02/2023.
+       ENVIRONMENT DIVISION.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 WRK-DATA.
+           02 WRK-ANO  PIC 9(04) VALUE ZEROS.
+           02 WRK-MES  PIC 9(02) VALUE ZEROS.
+           02 WRK-DIA  PIC 9(02) VALUE ZEROS.
+       PROCEDURE DIVISION.
+           ACCEPT WRK-DATA FROM DATE YYYYMMDD.
+           DISPLAY 'DATA...' WRK-DATA.
+           DISPLAY 'DATA: 'WRK-DIA'/'WRK-MES'/'WRK-ANO.
+       
+       STOP RUN.
